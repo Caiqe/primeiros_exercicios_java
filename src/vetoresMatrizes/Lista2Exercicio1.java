@@ -35,17 +35,19 @@ public class Lista2Exercicio1 {
 			}
 		}
 		System.out.println("\nElementos na diagonal secundária: \n");
-		for (int i = 0; i <3; i++) {
-			for (int x = 0; x <3; x++) {
-				if(i+x==2) {
+		for (int i = 0; i < 3; i++) {
+			for (int x = 0; x < 3; x++) {
+				if (i + x == 2) {
 					System.out.print(matriz[i][x] + " ");
 					somaSecundaria += matriz[i][x];
 				}
 			}
 
 		}
-		System.out.println("\nSoma dos elementos da diagonal principal: "+somaPrincipal);
-		System.out.println("\nSoma dos elementos da diagonal secundária: "+somaSecundaria);
+		System.out.println("\nSoma dos elementos da diagonal principal: " + somaPrincipal);
+		System.out.println("\nSoma dos elementos da diagonal secundária: " + somaSecundaria);
+		
+		sc.close();
 	}
 
 }

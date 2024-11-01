@@ -16,28 +16,28 @@ public class Lista2Exercicio2 {
 
 		float notas[][] = new float[10][4];
 		float mediaFinal[] = new float[10];
-		float somaNotas=0;
-		
+		float somaNotas = 0;
 
 		Scanner sc = new Scanner(System.in);
 
 		for (int x = 0; x < 10; x++) {
-			System.out.println("========================== "+(1+x)+"° Aluno =========================");
-			somaNotas=0;
+			System.out.println("========================== " + (1 + x) + "° Aluno =========================");
+			somaNotas = 0;
 			for (int z = 0; z < 4; z++) {
 				System.out.println("\nInforme a nota do " + (z + 1) + "° Bimestre: ");
 				notas[x][z] = sc.nextFloat();
 				somaNotas += notas[x][z];
-				mediaFinal[x]=somaNotas/10;
+				mediaFinal[x] = somaNotas / 10;
 			}
 
 		}
 		System.out.println("\nNotas: \n");
 		for (int x = 0; x < 10; x++) {
-			System.out.printf("\nNota: %.1f",mediaFinal[x]," \n");
-			
+			System.out.printf("\nNota: %.1f", mediaFinal[x], " \n");
 
 		}
+
+		sc.close();
 
 	}
 }
