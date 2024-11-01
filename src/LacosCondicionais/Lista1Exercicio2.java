@@ -7,8 +7,8 @@ public class Lista1Exercicio2 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
 		int valor;
+		
 		
 		System.out.println("\nInforme um valor: ");
 		valor = sc.nextInt();
@@ -42,6 +42,9 @@ public class Lista1Exercicio2 {
 				System.out.println("O número "+valor+" é ímpar e negativo.");
 			}
 		}
+		
+		
+		sc.close();
 
 	}
 

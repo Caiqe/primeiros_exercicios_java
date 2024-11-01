@@ -18,7 +18,6 @@ public class Lista1Exercicio2 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner (System.in);
-		
 		List<Integer> numerosInt = new ArrayList<Integer>();
 		
 		int pesquisaNum;
@@ -44,6 +43,8 @@ public class Lista1Exercicio2 {
 		else {
 			System.out.println("\nO número "+pesquisaNum+" não foi encontrado!");
 		}
+		
+		sc.close();
 		
 		
 

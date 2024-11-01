@@ -22,6 +22,8 @@ public class exercicio4 {
 		calculo = (num1*num2)-(num3*num4);
 		
 		System.out.println("\nA diferença é: "+calculo);
+		
+		sc.close();
 
 	}
 

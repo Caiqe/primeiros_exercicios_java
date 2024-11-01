@@ -40,6 +40,8 @@ public class Lista1Exercicio1 {
 		
 		System.out.println("\nCores ordenadas: "+cores.toString());
 		
+		sc.close();
+		
 		
 		
 		

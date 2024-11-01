@@ -23,7 +23,6 @@ public class Lista2Exercicio2 {
 		int pesquisaNum;
 		
 		
-		
 		numeros.add(1);
 		numeros.add(2);
 		numeros.add(3);
@@ -44,6 +43,8 @@ public class Lista2Exercicio2 {
 		else {
 			System.out.println("\nO número "+pesquisaNum+" não foi encontrado!");
 		}
+		
+		sc.close();
 
 	}
 

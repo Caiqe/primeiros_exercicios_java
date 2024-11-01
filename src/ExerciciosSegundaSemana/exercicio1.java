@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class exercicio1 {
 
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		
-		float salario, abono, novo, novoSalario;
+		
+		float salario, abono, novoSalario;
 		
 		System.out.println("Informe o salário: ");
 		salario = sc.nextFloat();
@@ -18,6 +20,9 @@ public class exercicio1 {
 		novoSalario = salario+abono;
 		
 		System.out.println("\nO novo valor do salário é: R$"+novoSalario);
+		
+		
+		sc.close();
 
 	}
 

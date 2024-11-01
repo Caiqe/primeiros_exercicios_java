@@ -19,7 +19,6 @@ public class Lista2Exercicio1 {
 		
 		Scanner sc = new Scanner(System.in);
 		Set<Integer> numeros = new HashSet<Integer>();
-		
 		int entradaNum;
 		
 		for(int i=0; i<10;i++) {
@@ -35,6 +34,8 @@ public class Lista2Exercicio1 {
 		while(Numeros.hasNext()) {
 			System.out.println(Numeros.next());
 		}
+		
+		sc.close();
 		
 
 	}

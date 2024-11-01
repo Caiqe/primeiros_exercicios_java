@@ -14,9 +14,10 @@ public class Lista2Exercicio4 {
 		
 		System.out.println("\n\t\tBANCO");
 		System.out.println("\nCÓDIGO DA OPERAÇÃO      OPERAÇÃO");
-		System.out.println("\n 1                      SALDO");
-		System.out.println("\n 2                      SAQUE");
-		System.out.println("\n 3                      DEPÓSITO");
+		System.out.println("____________________________________");
+		System.out.println("\n [1]                     SALDO");
+		System.out.println(" [2]                     SAQUE");
+		System.out.println(" [3]                     DEPÓSITO");
 		System.out.println("\n");
 		
 		opcao = sc.nextInt();
@@ -67,6 +68,9 @@ public class Lista2Exercicio4 {
 		{
 			System.out.println("\nOPÇÃO INVÁLIDA");
 		}
+		
+		
+		sc.close();
 
 	}
 

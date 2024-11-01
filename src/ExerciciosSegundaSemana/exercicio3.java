@@ -22,7 +22,10 @@ public class exercicio3 {
 		desconto = sc.nextFloat();
 		
 		salarioLiquido = (salarioBruto+adNoturno+(hrExtra*5))-desconto;
+		
 		System.out.printf("\nValor do salário liquído: %.2f",salarioLiquido);
+		
+		sc.close();
 	}
 
 }

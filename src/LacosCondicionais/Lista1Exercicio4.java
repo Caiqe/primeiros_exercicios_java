@@ -5,109 +5,85 @@ import java.util.Scanner;
 public class Lista1Exercicio4 {
 
 	public static void main(String[] args) {
-		
-		
+
 		Scanner sc = new Scanner(System.in);
-		
+
 		String escolhaEspecie;
-		
+
 		System.out.println("\nA espécie que esta pensando é um : Vertebrado ou Invertebrado ?");
 		escolhaEspecie = sc.nextLine();
-		
-		
-		//Arvore vertebrado
-		if(escolhaEspecie.equalsIgnoreCase("vertebrado")) 
-		{
+
+		// Arvore vertebrado
+		if (escolhaEspecie.equalsIgnoreCase("vertebrado")) {
 			System.out.println("\nA espécie que esta pensando é uma: Ave ou Mamifero ?");
 			escolhaEspecie = sc.nextLine();
-			
-			//escolha ave
-			if(escolhaEspecie.equalsIgnoreCase("ave")) 
-			{
+
+			if (escolhaEspecie.equalsIgnoreCase("ave")) {
 				System.out.println("\nA espécie que esta pensando é um: Carnívoro ou Onívoro ?");
 				escolhaEspecie = sc.nextLine();
-				
-				//escolha carnivo
-				if(escolhaEspecie.equalsIgnoreCase("carnívoro")) 
-				{
+
+				if (escolhaEspecie.equalsIgnoreCase("carnívoro")) {
 					System.out.println("\nA espécie que esta pensando é: Águia");
-					
+
 				}
-				//escolha onivoro
-				else if(escolhaEspecie.equalsIgnoreCase("onívoro")) 
-				{
+
+				else if (escolhaEspecie.equalsIgnoreCase("onívoro")) {
 					System.out.println("\nA espécie que esta pensando é: Pombo");
-				}
-				else
-				{
+				} else {
 					System.out.println("Não consegui entender oque tentou digitar!");
 				}
 			}
-			//escolha mamifero
-			if(escolhaEspecie.equalsIgnoreCase("Mamífero")) 
-			{
+
+			if (escolhaEspecie.equalsIgnoreCase("Mamífero")) {
 				System.out.println("\nA espécie que esta pensando é um: Onívoro ou Herbívoro ?");
 				escolhaEspecie = sc.nextLine();
-				
-				//escolha onivoro
-				if(escolhaEspecie.equalsIgnoreCase("onívoro")) 
-				{
+
+				// escolha onivoro
+				if (escolhaEspecie.equalsIgnoreCase("onívoro")) {
 					System.out.println("\nA espécie que esta pensando é: Humano");
-				}
-				else if(escolhaEspecie.equalsIgnoreCase("Herbívoro")) 
-				{
+				} else if (escolhaEspecie.equalsIgnoreCase("Herbívoro")) {
 					System.out.println("\nA espécie que esta pensando é: Vaca");
-				}
-				else {
+				} else {
 					System.out.println("Não consegui entender oque tentou digitar!");
 				}
-				
+
 			}
 		}
-		//arvore invertebrado
-		else if(escolhaEspecie.equalsIgnoreCase("Invertebrado"))
-		{
+		// arvore invertebrado
+		else if (escolhaEspecie.equalsIgnoreCase("Invertebrado")) {
 			System.out.println("\nA espécie que esta pensando é um: Inseto ou Anelídeo ?");
 			escolhaEspecie = sc.nextLine();
-			
-			//escolha inseto
-			if(escolhaEspecie.equalsIgnoreCase("Inseto")) {
+
+			if (escolhaEspecie.equalsIgnoreCase("Inseto")) {
 				System.out.println("\nA espécie que esta pensando é um: Hematófago ou Herbívoro ?");
 				escolhaEspecie = sc.nextLine();
-				
-				if(escolhaEspecie.equalsIgnoreCase("Hematófago")) 
-				{
+
+				if (escolhaEspecie.equalsIgnoreCase("Hematófago")) {
 					System.out.println("\nA espécie que você esta pensando é: Pulga");
-				}
-				else if(escolhaEspecie.equalsIgnoreCase("Herbívoro")) 
-				{
+				} else if (escolhaEspecie.equalsIgnoreCase("Herbívoro")) {
 					System.out.println("\nA espécie que você esta pensando é: Lagarta");
-				}
-				else {
+				} else {
 					System.out.println("Não consegui entender oque tentou digitar!");
 				}
 			}
-			//escolha anelidio
-			else if(escolhaEspecie.equalsIgnoreCase("Anelídio"))
-			{
+			// escolha anelidio
+			else if (escolhaEspecie.equalsIgnoreCase("Anelídio")) {
 				System.out.println("\nA espécie que esta pensando é um: Hematófago ou Onívoro ?");
 				escolhaEspecie = sc.nextLine();
-				
-				if(escolhaEspecie.equalsIgnoreCase("Hematófago")) 
-				{
+
+				if (escolhaEspecie.equalsIgnoreCase("Hematófago")) {
 					System.out.println("\nA espécie que esta pensando é: Sanguessuga");
-				}
-				else if(escolhaEspecie.equalsIgnoreCase("Onívoro")) 
-				{
+				} else if (escolhaEspecie.equalsIgnoreCase("Onívoro")) {
 					System.out.println("\nA espécie que esta pensando é: Minhoca");
-				}
-				else {
+				} else {
 					System.out.println("Não consegui entender oque tentou digitar!");
 				}
 			}
-		}else {
+		} else {
 			System.out.println("Não consegui entender oque tentou digitar!");
 		}
+		
+		sc.close();
 
 	}
 

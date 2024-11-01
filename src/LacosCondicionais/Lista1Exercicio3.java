@@ -7,10 +7,10 @@ public class Lista1Exercicio3 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
 		int idade,opcao;
 		String nome;
 		boolean primeiraDoacao=true;
+		
 		
 		System.out.println("\nInforme o seu nome: ");
 		nome = sc.nextLine();
@@ -46,6 +46,8 @@ public class Lista1Exercicio3 {
 		else {
 			System.out.println(nome+" não está apto para doar sangue");
 		}
+		
+		sc.close();
 
 	}
 

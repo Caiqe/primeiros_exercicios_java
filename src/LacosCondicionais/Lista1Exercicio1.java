@@ -7,8 +7,8 @@ public class Lista1Exercicio1 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner (System.in);
-		
 		int valor1,valor2,valor3,somaValor;
+		
 		
 		System.out.println("Informe o primeiro valor: ");
 		valor1 = sc.nextInt();
@@ -31,6 +31,9 @@ public class Lista1Exercicio1 {
 		else {
 			System.out.println("\nA soma de A + B é menor que C");
 		}
+		
+		
+		sc.close();
 
 	}
 
