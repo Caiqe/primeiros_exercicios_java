@@ -70,6 +70,8 @@ public class ExercicioFila {
 			}
 
 		} while (opcao != 0);
+		
+		sc.close();
 
 	}
 
